@@ -8,6 +8,6 @@ in {
 	system.activationScripts.projects = ''
 		mkdir -p ${home}/projects
 		chown ${username}:${group} ${home}/projects
-		chmod 755 ${home}/projects
+		chmod 777 ${home}/projects
 	'';
 }
